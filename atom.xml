@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[ififir]]></title>
+  <subtitle><![CDATA[UI/UX设计师，游戏影视概念艺术爱好者]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://ififir.com/"/>
+  <updated>2015-10-09T07:08:55.345Z</updated>
+  <id>http://ififir.com/</id>
+  
+  <author>
+    <name><![CDATA[ififir]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[2]]></title>
+    <link href="http://ififir.com/2015/10/09/2/"/>
+    <id>http://ififir.com/2015/10/09/2/</id>
+    <published>2015-10-09T07:08:55.000Z</published>
+    <updated>2015-10-09T07:08:55.345Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[这是一篇测试]]></title>
+    <link href="http://ififir.com/2015/10/09/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95/"/>
+    <id>http://ififir.com/2015/10/09/这是一篇测试/</id>
+    <published>2015-10-09T06:20:24.000Z</published>
+    <updated>2015-10-09T06:59:07.519Z</updated>
+    <content type="html"><![CDATA[<h2 id="_config-yml_的配置说明:"><em>_config.yml</em> 的配置说明:</h2><pre><code>//代码区域测试
+# Site 这里的配置，哪项配置反映在哪里，可以参考我的博客
+title: Zippera's blog #站点名，站点左上角
+subtitle: Walk steps step by step #副标题，站点左上角
+description: Walk steps step by step #给搜索引擎看的，对站点的描述，可以自定义
+author: zippera #在站点左下角可以看到
+email: #你的联系邮箱
+language: zh-CN #中国人嘛，用中文
+
+# URL #这项暂不配置，绑定域名后，欲创建sitemap.xml需要配置该项
+## If your site is put in a subdirectory, <span class="operator"><span class="keyword">set</span> <span class="keyword">url</span> <span class="keyword">as</span> <span class="string">'http://yoursite.com/child'</span> <span class="keyword">and</span> root <span class="keyword">as</span> <span class="string">'/child/'</span>
+<span class="keyword">url</span>: <span class="keyword">http</span>://zipperary.com
+root: /
+permalink: :<span class="keyword">year</span>/:<span class="keyword">month</span>/:<span class="keyword">day</span>/:title/
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+
+# Writing 文章布局、写作格式的定义，不修改
+new_post_name: :title.md # <span class="keyword">File</span> <span class="keyword">name</span> <span class="keyword">of</span> <span class="keyword">new</span> posts
+default_layout: post
+auto_spacing: <span class="literal">false</span> # <span class="keyword">Add</span> spaces <span class="keyword">between</span> asian <span class="keyword">characters</span> <span class="keyword">and</span> western <span class="keyword">characters</span>
+titlecase: <span class="literal">false</span> # Transform title <span class="keyword">into</span> titlecase
+max_open_file: <span class="number">100</span>
+filename_case: <span class="number">0</span>
+highlight:
+  <span class="keyword">enable</span>: <span class="literal">true</span>
+  backtick_code_block: <span class="literal">true</span>
+  line_number: <span class="literal">true</span>
+  tab_replace:
+
+# <span class="keyword">Category</span> &amp; Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Archives 默认值为<span class="number">2</span>，这里都修改为<span class="number">1</span>，相应页面就只会列出标题，而非全文
+## <span class="number">2</span>: <span class="keyword">Enable</span> pagination
+## <span class="number">1</span>: <span class="keyword">Disable</span> pagination
+## <span class="number">0</span>: Fully <span class="keyword">Disable</span>
+<span class="keyword">archive</span>: <span class="number">1</span>
+<span class="keyword">category</span>: <span class="number">1</span>
+tag: <span class="number">1</span>
+
+# <span class="keyword">Server</span> 不修改
+## Hexo uses <span class="keyword">Connect</span> <span class="keyword">as</span> a <span class="keyword">server</span>
+## You can customize the logger <span class="keyword">format</span> <span class="keyword">as</span> defined <span class="keyword">in</span>
+## <span class="keyword">http</span>://www.senchalabs.org/<span class="keyword">connect</span>/logger.html
+port: <span class="number">4000</span>
+logger: <span class="literal">false</span>
+logger_format:
+
+# <span class="built_in">Date</span> / <span class="keyword">Time</span> <span class="keyword">format</span> 日期格式，不修改
+## Hexo uses Moment.js <span class="keyword">to</span> <span class="keyword">parse</span> <span class="keyword">and</span> display <span class="built_in">date</span>
+## You can customize the <span class="built_in">date</span> <span class="keyword">format</span> <span class="keyword">as</span> defined <span class="keyword">in</span>
+## <span class="keyword">http</span>://momentjs.com/docs/#/displaying/<span class="keyword">format</span>/
+<span class="keyword">date_format</span>: MMM <span class="keyword">D</span> YYYY
+<span class="keyword">time_format</span>: H:mm:ss
+
+# Pagination 每页显示文章数
+## <span class="keyword">Set</span> per_page <span class="keyword">to</span> <span class="number">0</span> <span class="keyword">to</span> <span class="keyword">disable</span> pagination
+per_page: <span class="number">10</span>
+pagination_dir: page
+
+# Deployment 站点部署到github要配置
+## Docs: <span class="keyword">http</span>://zespia.tw/hexo/docs/deploy.html
+deploy:
+  <span class="keyword">type</span>: github
+  repository: https://github.com/zippera/zippera.github.io.git
+  branch: <span class="keyword">master</span></span>
+</code></pre>]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="_config-yml_的配置说明:"><em>_config.yml</em> 的配置说明:</h2><pre><code>//代码区域测试
+# Site 这里的配置，哪项配置反映在哪里，可以参考我的博客
+title: Zippera's blog #站点名，站]]>
+    </summary>
+    
+      <category term="备忘" scheme="http://ififir.com/tags/%E5%A4%87%E5%BF%98/"/>
+    
+  </entry>
+  
+</feed>
